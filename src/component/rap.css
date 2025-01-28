@@ -1,6 +1,7 @@
 /* Lớp cho lời rap */
 .lyric {
-    font-size: 19px;
+    font-size: 23px;
+    font-weight: 1000;
 }
 .lyric.rap {
     font-style: italic; /* Chữ nghiêng */
@@ -17,7 +18,7 @@
   /* Animation thay đổi màu sắc */
 @keyframes colorChange {
     0% {
-      color: #ff00cc; /* Màu cam */
+      color: #ff00e1; /* Màu cam */
     }
     50% {
       color: #00ff00; /* Màu xanh lá */

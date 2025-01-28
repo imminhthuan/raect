@@ -19,7 +19,7 @@ const FireworksDisplay = () => {
   // Danh sách lời bài hát
   const lyrics = [
     { time: 1, text: '.....', type: 'normal' },
-    { time: 6, text: 'Chúc Mừng Năm Mới 2025!', type: 'normal' },
+    { time: 6, text: 'Chúc Mừng Năm Mới Năm 2025!', type: 'normal' },
     { time: 34, text: 'Xuân mang tình yêu muôn nhà', type: 'normal' },
     { time: 37, text: 'Mang lời ca chan hoà', type: 'normal' },
     { time: 39, text: 'Yêu thương hạnh phúc sum vầy', type: 'normal' },
@@ -92,12 +92,12 @@ const FireworksDisplay = () => {
     { time: 223, text: 'Có gió mang xuân mừng vui chúc ông bà' },
     { time: 226, text: 'Cười mãi thôi, một năm mới bình an, năm mới bình an.' },
     {
-      time: 228,
+      time: 244,
       text: (
         <>
           Năm mới đến, chúc bạn và gia đình luôn vui vẻ, hạnh phúc, phát tài phát lộc, mãi đoàn kết và yêu thương nhau!<br />
           Chúc bạn thành công trong công việc và may mắn trong cuộc sống!<br />
-          CHÚC MỪNG NĂM MỚI 2025!
+          CHÚC MỪNG NĂM MỚI NĂM 2025!
         </>
       )
     }
@@ -115,7 +115,7 @@ const FireworksDisplay = () => {
         acceleration: 1.05,
         friction: 0.98,
         gravity: 1.5,
-        particles: 200,
+        particles: 180,
         trace: 2,
         explosion: 5,
         autoresize: true,
@@ -244,9 +244,9 @@ const FireworksDisplay = () => {
           zIndex: 3, // Đặt player lên trên canvas
         }}
       >
-        <audio ref={audioRef} controls style={{ width: '300px', display: 'none'}}>
+        <audio ref={audioRef} controls style={{ width: '300px'}}>
           <source
-            src="/mp3/MotNamMoiBinhAn-SonTungMTP-4315569.mp3"
+            src="/mp3/mp3nhac.mp3"
             type="audio/mpeg"
           />
           Trình duyệt của bạn không hỗ trợ audio.
