@@ -1,0 +1,31 @@
+/* Lớp cho lời rap */
+.lyric {
+    font-size: 19px;
+}
+.lyric.rap {
+    font-style: italic; /* Chữ nghiêng */
+    color: #ff4500; /* Màu cam cho rap */
+  }
+  
+  /* Lớp cho lời bài hát bình thường */
+  .lyric.normal {
+    font-style: normal; /* Chữ bình thường */
+    color: #fff; /* Màu trắng cho lời bình thường */
+    animation: colorChange 3s infinite alternate, moveText 2s ease-in-out infinite;
+  }
+
+  /* Animation thay đổi màu sắc */
+@keyframes colorChange {
+    0% {
+      color: #ff00cc; /* Màu cam */
+    }
+    50% {
+      color: #00ff00; /* Màu xanh lá */
+    }
+    100% {
+      color: #00ddff; /* Màu cam trở lại */
+    }
+  }
+  
+
+  
