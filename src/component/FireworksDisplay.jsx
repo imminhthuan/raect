@@ -101,7 +101,7 @@ const FireworksDisplay = () => {
         </>
       )
     }
-    
+
   ];
 
   // Hàm bắn pháo hoa
@@ -244,7 +244,7 @@ const FireworksDisplay = () => {
           zIndex: 3, // Đặt player lên trên canvas
         }}
       >
-        <audio ref={audioRef} controls style={{ width: '300px'}}>
+        <audio ref={audioRef} controls style={{ width: '300px', display: 'none' }}>
           <source
             src="/mp3/mp3nhac.mp3"
             type="audio/mpeg"
@@ -283,7 +283,7 @@ const FireworksDisplay = () => {
       >
         {currentLyric}
       </div>
-      
+
       {isButtonVisible && (
         <button
           onClick={handleStart}
